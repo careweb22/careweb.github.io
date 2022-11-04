@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1303px) {
+  h1 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+
+  .hero .right-side {
+    padding-top: 1rem;
+  }
+
+  .heading,
+  .heading-dark {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #b5b5b5;
+  }
+}
+
+@media only screen and (max-width: 1213px) {
+  h1,
+  .heading,
+  .heading-dark {
+    font-size: 62px;
+    line-height: 65px;
+  }
+
+  .hero .right-side {
+    padding-top: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  h1,
+  .heading,
+  .heading-dark {
+    font-size: 60px;
+    line-height: 65px;
+  }
+}
+
+@media only screen and (max-width: 1124px) {
+  h1,
+  .heading,
+  .heading-dark {
+    font-size: 57px;
+    line-height: 62px;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  h1,
+  .heading,
+  .heading-dark {
+    font-size: 55px;
+    line-height: 62px;
+  }
+}
+
+@media only screen and (max-width: 1034px) {
+  h1,
+  .heading,
+  .heading-dark {
+    font-size: 52px;
+    line-height: 57px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .grid-two-col {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0rem;
+  }
+
+  .grid-three-col {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0rem;
+  }
+
+  nav {
+    padding: 10px 30px 4px;
+  }
+
+  nav .menu-btn i {
+    display: block;
+  }
+
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+
+  nav ul {
+    position: fixed;
+    top: 70px;
+    left: -130%;
+    background-color: var(--secondary);
+    height: 100vh;
+    width: 120%;
+    text-align: center;
+    display: block;
+    transition: all 0.7s ease;
+  }
+
+  #click:checked ~ ul {
+    left: -10%;
+  }
+
+  nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 30px;
+    transition: 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+
+  nav ul li a.active,
+  nav ul li a:hover {
+    background: none;
+    color: var(--primary);
+  }
+
+  .hero .left-side {
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero .left-side p {
+    width: 70%;
+  }
+
+  .about .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-chose p {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .service .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .unlimited {
+    margin-top: 2rem;
+  }
+
+  .contact-section {
+    width: 85vw;
+  }
+
+  .contact-section .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-text h2 {
+    line-height: 40px;
+  }
+
+  .contact-section .contact a {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .footer-info p {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 747px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .hero .left-side {
+    padding-top: 3.5rem;
+  }
+
+  .hero .left-side p {
+    width: 100%;
+  }
+
+  .footer-info p {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .contact-text h2 {
+    color: var(--light);
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .contact-text h2 span {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
